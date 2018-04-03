@@ -1,0 +1,28 @@
+{
+  "name": "orvibo-http-server",
+  "version": "1.0.0",
+  "description": "Web service and API for controlling Orvibo devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCotton1123/orvibo-http-server.git"
+  },
+  "keywords": [
+    "orvibo",
+    "http",
+    "api"
+  ],
+  "author": "Jesse Cotton <jcotton1123@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/JCotton1123/orvibo-http-server/issues"
+  },
+  "homepage": "https://github.com/JCotton1123/orvibo-http-server#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "orvibo-b25-server": "file:../orvibo-b25-server"
+  }
+}

@@ -23,6 +23,6 @@
   "homepage": "https://github.com/JCotton1123/orvibo-http-server#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "orvibo-b25-server": "file:../orvibo-b25-server"
+    "orvibo-b25-server": "git+https://github.com/JCotton1123/orvibo-b25-server.git"
   }
 }
